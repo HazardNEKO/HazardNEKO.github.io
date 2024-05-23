@@ -1,4 +1,126 @@
-* {
+*{
+    margin: 0; padding: 0;
+}
+
+
+@font-face {
+    font-family: WAG;
+    src: url("WAGURI.ttf");
+}
+
+@font-face {
+    font-family: NT;
+    src: url("NotoSans.ttf");
+}
+
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+#index{
+    margin-bottom: 25px;
+    font-family: 'Pretendard-Regular';
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+#container{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    padding: 100px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+#container2{
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+    padding: 100px;
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+
+
+
+#container3{
+    margin: 0 auto;
+    width: 700px;
+    font-family: 'Pretendard-Regular';
+    font-size: 26px;
+    font-weight: normal;
+}
+
+#last{
+    word-spacing: 16px;
+}
+
+
+
+
+h1 {
+    margin-bottom: 25px;
+    font-family: 'Pretendard-Regular';
+    font-weight: normal;
+    font-size: 150px;
+    text-align: center;
+    /*background-color:black;*/
+}
+
+p { 
+    margin-bottom: 25px;
+    font-family: 'Pretendard-Regular';
+    font-weight: normal;
+    font-size: 25px;
+    text-align: center;
+
+}
+
+line{
+    line-height: normal;    
+}
+
+
+
+
+p1{
+    font-family: 'Pretendard-Regular';
+    font-size: 30px;
+ }
+
+ img{ 
+    margin: auto;
+ }
+
+ .card{
+    margin-bottom: 300px;
+ }
+
+ .card1{
+    margin-bottom: 1000px;
+ }
+
+ #Predator_Leviathan{
+    font-family: 'Pretendard-Regular';
+    font-size: 50px;
+    font-weight: bold;
+
+ }
+
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
